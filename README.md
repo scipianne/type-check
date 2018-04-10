@@ -1,2 +1,2 @@
-# type-check
-Type check decorators for python
+# Type Check
+Type check decorator for python
