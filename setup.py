@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='type-check',
-    version='0.1',
+    version='0.1.2',
     description='Type check decorator for python',
     url='https://github.com/scipianne/type-check',
     classifiers=[
@@ -19,5 +19,5 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='type check safe',
-    packages=find_packages(exclude=['type-check']),
+    packages=find_packages(),
 )
