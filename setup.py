@@ -9,9 +9,10 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='type-check',
-    version='0.1.2',
+    version='0.1.3',
     description='Type check decorator for python',
-    url='https://github.com/scipianne/type-check',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.4',
