@@ -16,8 +16,8 @@ def type_check():
             for arg_name in args_names:
                 if arg_name in annotations:
                     types.append(annotations[arg_name])
-
-                raise SyntaxError('all types must be specified')
+                else:
+                    raise SyntaxError('all types must be specified')
 
             # getting return type
             return_type = None
