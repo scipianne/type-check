@@ -19,5 +19,5 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='type check safe',
-    packages=find_packages(exclude=['type-check']),
+    py_modules=["type_check"],
 )
