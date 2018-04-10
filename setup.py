@@ -19,5 +19,5 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     keywords='type check safe',
-    py_modules=["type_check"],
+    packages=find_packages(),
 )
