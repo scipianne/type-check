@@ -11,11 +11,10 @@ def type_check():
         def check_types(*args, **kwargs):
             args_names = inspect.getfullargspec(func).args
             annotations = inspect.getfullargspec(func).annotations
-            types = list(annotations.values())
+            types = [annotations[arg_name] for arg_name in args_names]
             return_type = None
             if 'return' in annotations:
                 return_type = annotations['return']
-                types = types[1:]
 
             for argument, type in zip((args), types):
                 if not isinstance(argument, type) and argument is not None:
