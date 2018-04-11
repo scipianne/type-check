@@ -1,3 +1,5 @@
+[![PyPI](https://img.shields.io/pypi/v/type-check.svg)](https://pypi.org/project/type-check/)
+
 # Type Check
 Type check decorator for python
 
