@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='type-check',
-    version='0.1.6',
+    version='0.1.7',
     description='Type check decorator for python',
     long_description=long_description,
     long_description_content_type='text/markdown',
