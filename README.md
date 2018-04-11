@@ -20,14 +20,15 @@ from type_check import type_check
 Usage in function:
 
 ```
-@type_check()
+@type_check
 def my_func(arg: type = default) -> return_type:
-    pass
+    return return_type()
 ```
 
 At class function, specify type of `self` with base type, for example:
 
 ```
+@type_check
 def __init__(self: object, arg: type = default):
     pass
 ```
