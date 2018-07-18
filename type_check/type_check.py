@@ -3,7 +3,7 @@ from functools import wraps
 
 
 def type_check(func):
-    """Decorator for type-checking parameters of the function"""
+    """Decorator for type-checking parameters of the function!"""
 
     @wraps(func)
     def check_types(*args, **kwargs):
